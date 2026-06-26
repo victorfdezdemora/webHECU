@@ -911,6 +911,25 @@ textarea { resize: vertical; min-height: 130px; }
 }
 
 /* =========================================
+   RESPONSIVE — bloques de servicio
+   ========================================= */
+@media (max-width: 1024px) {
+  .bloque {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding-block: 2.5rem;
+  }
+  .bloque--imagen-dcha .bloque__imagen { order: -1; }
+  .bloque__imagen img { height: 240px; }
+}
+
+@media (max-width: 768px) {
+  .bloque { padding-block: 2rem; gap: 1rem; }
+  .bloque--imagen-dcha .bloque__imagen,
+  .bloque--imagen-izq  .bloque__imagen { order: -1; }
+}
+
+/* =========================================
    RESPONSIVE — móvil pequeño (≤480px)
    ========================================= */
 @media (max-width: 480px) {
