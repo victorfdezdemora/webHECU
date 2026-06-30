@@ -161,6 +161,15 @@ section { padding-block: 5rem; }
   letter-spacing: 0.02em;
   z-index: 1001;
   position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav__logo-img {
+  height: 36px;
+  width: auto;
+  display: block;
 }
 
 .nav__menu {
