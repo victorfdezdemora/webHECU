@@ -1,57 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hecuatm.es/</loc>
+    <loc>https://www.hecuatm.es/</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://hecuatm.es/servicios/consultoria.html</loc>
+    <loc>https://www.hecuatm.es/servicios/consultoria.html</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hecuatm.es/servicios/outsourcing.html</loc>
+    <loc>https://www.hecuatm.es/servicios/outsourcing.html</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hecuatm.es/servicios/auditorias.html</loc>
+    <loc>https://www.hecuatm.es/servicios/auditorias.html</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hecuatm.es/servicios/formacion.html</loc>
+    <loc>https://www.hecuatm.es/servicios/formacion.html</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hecuatm.es/servicios/asesoramiento-legal.html</loc>
+    <loc>https://www.hecuatm.es/servicios/asesoramiento-legal.html</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hecuatm.es/servicios/elaboracion-documental.html</loc>
+    <loc>https://www.hecuatm.es/servicios/elaboracion-documental.html</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hecuatm.es/servicios/informes-periciales.html</loc>
+    <loc>https://www.hecuatm.es/servicios/informes-periciales.html</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hecuatm.es/servicios/ia-alimentaria.html</loc>
+    <loc>https://www.hecuatm.es/servicios/ia-alimentaria.html</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hecuatm.es/politica-privacidad.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.hecuatm.es/politica-cookies.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.hecuatm.es/aviso-legal.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>
