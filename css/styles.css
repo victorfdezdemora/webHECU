@@ -639,7 +639,6 @@ textarea { resize: vertical; min-height: 130px; }
     padding-block: 2.5rem;
   }
   .bloque--imagen-dcha .bloque__imagen { order: -1; }
-  .bloque__imagen img { height: 240px; }
 }
 
 /* =========================================
@@ -880,13 +879,22 @@ textarea { resize: vertical; min-height: 130px; }
 }
 .bloque__texto p + p { margin-top: 0.85rem; }
 
+.bloque__texto,
+.bloque__imagen { min-width: 0; }
+
 .bloque__imagen img {
   width: 100%;
-  height: 340px;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   border-radius: var(--radius-card);
   box-shadow: var(--shadow);
   background-color: rgba(26, 92, 42, 0.07);
+}
+
+/* Logos y diagramas con fondo blanco/transparente: margen interior para no pegarse al borde */
+.bloque__imagen--grafico img {
+  padding: clamp(0.75rem, 3vw, 1.5rem);
+  background-color: var(--color-white);
 }
 
 /* CTA banner final */
@@ -929,7 +937,6 @@ textarea { resize: vertical; min-height: 130px; }
     padding-block: 2.5rem;
   }
   .bloque--imagen-dcha .bloque__imagen { order: -1; }
-  .bloque__imagen img { height: 240px; }
 }
 
 @media (max-width: 768px) {
