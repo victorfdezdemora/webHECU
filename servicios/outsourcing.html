@@ -31,14 +31,26 @@
 
   <header id="header">
     <nav class="nav container">
-      <a href="../index.html" class="nav__logo">
+      <a href="/" class="nav__logo">
         <img src="../img/hecu_logo_blanco_transparente.png" alt="HECU Agrifood TM" class="nav__logo-img" />
       </a>
       <ul class="nav__menu" id="navMenu">
-        <li><a href="../index.html#inicio" class="nav__link">Inicio</a></li>
-        <li><a href="../index.html#servicios" class="nav__link">Servicios</a></li>
-        <li><a href="../index.html#nosotros" class="nav__link">Nosotros</a></li>
-        <li><a href="../index.html#contacto" class="nav__link">Contacto</a></li>
+        <li><a href="/" class="nav__link">Inicio</a></li>
+        <li class="nav__item nav__item--submenu">
+          <a href="/#servicios" class="nav__link">Servicios</a>
+          <ul class="nav__submenu" aria-label="Servicios">
+            <li><a href="/servicios/consultoria.html" class="nav__sublink">Consultor&#237;a</a></li>
+            <li><a href="/servicios/outsourcing.html" class="nav__sublink" aria-current="page">Outsourcing</a></li>
+            <li><a href="/servicios/auditorias.html" class="nav__sublink">Auditor&#237;as</a></li>
+            <li><a href="/servicios/formacion.html" class="nav__sublink">Formaci&#243;n</a></li>
+            <li><a href="/servicios/asesoramiento-legal.html" class="nav__sublink">Asesoramiento Legal</a></li>
+            <li><a href="/servicios/elaboracion-documental.html" class="nav__sublink">Elaboraci&#243;n Documental</a></li>
+            <li><a href="/servicios/informes-periciales.html" class="nav__sublink">Informes Periciales</a></li>
+            <li><a href="/servicios/ia-alimentaria.html" class="nav__sublink">IA Aplicada a la Industria Alimentaria</a></li>
+          </ul>
+        </li>
+        <li><a href="/#nosotros" class="nav__link">Nosotros</a></li>
+        <li><a href="/#contacto" class="nav__link">Contacto</a></li>
       </ul>
       <button class="nav__hamburger" id="navHamburger" aria-label="Abrir men&#250;">
         <span></span><span></span><span></span>
@@ -51,8 +63,8 @@
     <nav class="breadcrumb" aria-label="breadcrumb">
       <div class="container">
         <ol class="breadcrumb__list">
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="../index.html#servicios">Servicios</a></li>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/#servicios">Servicios</a></li>
           <li aria-current="page">Outsourcing</li>
         </ol>
       </div>
@@ -98,7 +110,23 @@
       <div class="container cta-banner__inner">
         <h2>&#191;Hablamos?</h2>
         <p>Cu&#233;ntanos tu caso y te asesoramos sin compromiso.</p>
-        <a href="../index.html#contacto" class="btn btn--white">Contactar ahora</a>
+        <a href="/#contacto" class="btn btn--white">Contactar ahora</a>
+      </div>
+    </section>
+
+    <section class="otros-servicios" aria-labelledby="otros-servicios-titulo">
+      <div class="container">
+        <h2 class="otros-servicios__title" id="otros-servicios-titulo">Otros servicios</h2>
+        <ul class="otros-servicios__grid">
+          <li><a href="/servicios/consultoria.html" class="otros-servicios__link"><i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i><span>Consultor&#237;a</span></a></li>
+          <li><a href="/servicios/auditorias.html" class="otros-servicios__link"><i class="fa-solid fa-clipboard-check" aria-hidden="true"></i><span>Auditor&#237;as</span></a></li>
+          <li><a href="/servicios/formacion.html" class="otros-servicios__link"><i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i><span>Formaci&#243;n</span></a></li>
+          <li><a href="/servicios/asesoramiento-legal.html" class="otros-servicios__link"><i class="fa-solid fa-scale-balanced" aria-hidden="true"></i><span>Asesoramiento Legal</span></a></li>
+          <li><a href="/servicios/elaboracion-documental.html" class="otros-servicios__link"><i class="fa-solid fa-file-lines" aria-hidden="true"></i><span>Elaboraci&#243;n Documental</span></a></li>
+          <li><a href="/servicios/informes-periciales.html" class="otros-servicios__link"><i class="fa-solid fa-gavel" aria-hidden="true"></i><span>Informes Periciales</span></a></li>
+          <li><a href="/servicios/ia-alimentaria.html" class="otros-servicios__link"><i class="fa-solid fa-robot" aria-hidden="true"></i><span>IA Aplicada a la Industria Alimentaria</span></a></li>
+        </ul>
+        <p class="otros-servicios__volver"><a href="/"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i> Volver a la p&#225;gina de inicio</a></p>
       </div>
     </section>
 
@@ -107,14 +135,40 @@
   <footer class="footer">
     <div class="container footer__inner">
       <div class="footer__brand">
-        <span class="footer__logo">HECU Agrifood TM</span>
+        <a href="/" class="footer__logo">HECU Agrifood TM</a>
         <p class="footer__tagline">Consultor&#237;a especializada en seguridad alimentaria</p>
       </div>
-      <p class="footer__copy">&#169; 2025 HECU Agrifood TM, S.L. Todos los derechos reservados.</p>
+      <nav class="footer__nav" aria-label="Mapa del sitio">
+        <div class="footer__col">
+          <span class="footer__heading">HECU Agrifood TM</span>
+          <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/#servicios">Servicios</a></li>
+            <li><a href="/#nosotros">Nosotros</a></li>
+            <li><a href="/#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer__col footer__col--servicios">
+          <span class="footer__heading">Servicios</span>
+          <ul>
+            <li><a href="/servicios/consultoria.html">Consultor&#237;a</a></li>
+            <li><a href="/servicios/outsourcing.html" aria-current="page">Outsourcing</a></li>
+            <li><a href="/servicios/auditorias.html">Auditor&#237;as</a></li>
+            <li><a href="/servicios/formacion.html">Formaci&#243;n</a></li>
+            <li><a href="/servicios/asesoramiento-legal.html">Asesoramiento Legal</a></li>
+            <li><a href="/servicios/elaboracion-documental.html">Elaboraci&#243;n Documental</a></li>
+            <li><a href="/servicios/informes-periciales.html">Informes Periciales</a></li>
+            <li><a href="/servicios/ia-alimentaria.html">IA Aplicada a la Industria Alimentaria</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container footer__bottom">
+      <p class="footer__copy">&#169; 2026 HECU Agrifood TM, S.L. Todos los derechos reservados.</p>
       <nav class="footer__links" aria-label="Pol&#237;tica y legal">
-        <a href="../politica-privacidad.html">Pol&#237;tica de privacidad</a>
-        <a href="../aviso-legal.html">Aviso legal</a>
-        <a href="../politica-cookies.html">Pol&#237;tica de cookies</a>
+        <a href="/politica-privacidad.html">Pol&#237;tica de privacidad</a>
+        <a href="/aviso-legal.html">Aviso legal</a>
+        <a href="/politica-cookies.html">Pol&#237;tica de cookies</a>
       </nav>
     </div>
   </footer>

@@ -22,7 +22,7 @@ navHamburger.addEventListener('click', () => {
 });
 
 /* Cerrar menú al pulsar un enlace */
-document.querySelectorAll('.nav__link').forEach(link => {
+document.querySelectorAll('.nav__link, .nav__sublink').forEach(link => {
   link.addEventListener('click', () => {
     nav.classList.remove('nav-open');
     document.body.style.overflow = '';
